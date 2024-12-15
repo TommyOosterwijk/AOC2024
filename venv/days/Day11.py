@@ -35,4 +35,5 @@ answerA = 0
 for i in range(len(stones)):
     answerA += int(stones[i].times)
 
+print(len(stones))
 print("AnswerA: ", answerA)
